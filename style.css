@@ -1,0 +1,549 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Indeximagem.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+#style.css {width: 100%;height: 450px;}
+
+h1{text-align: center; font-size: 35px; height: 60px; padding: 10px;}
+
+p{ text-align: justify; font-size: 50px; }
+
+body{background:rgb(201, 245, 181)}
+
+li{
+    display: inline;
+
+}
+
+
+a.hovered {
+    color: green;
+    transform: scale(1.1);
+}
+
+a.linkum:visited{
+    color:white;
+}
+a.linkum:link{
+    color: rgb(255, 255, 255);
+}
+
+
+.cabecalho {
+    background-image:linear-gradient(#c3ffc3, #4acf16);
+    color: white;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 25px 0;
+    font-size: 19px; 
+    border-radius: 8px;
+  
+    
+
+}
+.cabecalho-imagem{
+    width: 10%;
+    border-radius: 8px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+    
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+
+}
+
+.Página-imagem{
+    width: 25%;
+    border-radius: 8px;
+}
+
+#Página{
+    background-image: linear-gradient(#56f756);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Página-div-conteudo{
+    width: 35%;
+}
+
+
+.Página-titulo{
+    padding: 24px 0;
+}
+.Página-texto-tres{
+    color:rgb(0, 0, 0);
+    font-size: 220;
+}
+
+
+.cabecalho-campoemfoco{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px; 
+}  
+
+.ideias{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.Comerciantes{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 250px;
+    border-radius: 8px;
+}
+
+
+.AgroUpdate{  background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+.Formulário{  background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+.Analisedemercado{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.Cultivo{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+    h1{font-size: 30px; text-align: center}
+p{font-size: 20px; text-align: justify;}
+strong {font-size: 21px}
+nav li{ display: inline;
+margin: 0 0 0 20px; }
+
+.couve-imagem{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+
+}
+.Mel-imagem{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+
+}
+.Queijo-imagem{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+
+}
+.couve-imagem2{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+
+}
+.hidroponia-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+
+}
+.cebolinha-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+.cebolinha-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Milho-imagem{
+    width: 20%;
+    height: 250px;
+    border-radius: 8px;
+}
+.Milho-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+.Soja-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Soja-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+.Uva-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Uva-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+.Cebola-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Cebola-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.Noticia1-imagem{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+
+}
+.fonte{
+    font-size: 5px;
+}
+.Noticia1-imagem2{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Noticia2-imagem{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Noticia2-imagem2{
+    width: 20%;
+    height: 220px;
+    border-radius: 8px;
+}
+.money-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}
+.Peixe-imagem{
+    width: 15%;
+    height: 210px;
+    border-radius: 8px;
+}
+.Peixe-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.Boi-imagem{
+    width: 15%;
+    height: 210px;
+    border-radius: 8px;
+}
+.Boi-imagem2{
+    width: 75%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.clock span{
+    color: black;
+    font-size: 35px;
+    display: flex;
+    align-items:center;
+    gap: 50px;
+}
+
+.clock span:not(:last-child)::after{
+    content: ':';
+    margin-bottom: 5px;
+    color: var(--color-light);
+}
+@media screen and (max-width: 220px) {
+    .clock span{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .clock span:not(:last-child)::after{
+        display: none;
+    }
+}
+.imagem-rodape{
+    
+    width: 50%;
+    border-radius: 8px;
+
+}
+.rodape-imagem{
+
+    width: 10%;
+    border-radius: 8px;
+
+}
+main {
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.rodape {
+    background-color: #4acf16;
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.rodape-secao {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.rodape-secao h4 {
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.rodape-secao ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.rodape-secao ul li {
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.rodape-secao ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.rodape-secao ul li a:hover {
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #56f756;
+}
+
+.social-icon:hover {
+    background-color: #31a803;
+}
+
+.rodape-base {
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    padding: 10px 0;
+    background-color: #004b04;
+}
+
+.clima {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.clima-imagem {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4acf16;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; 
+}
+
+.scroll-to-top:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .rodape-conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rodape-secao {
+        margin: 20px 0;
+    }
+}
+#gallery{
+    text-align: center;
+
+}
+.gallery-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+}
+.radio-container {
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.radio-container iframe {
+    border-radius: 8px;
+    top: -50px;
+    left: -50px; 
+    width: 250px; 
+    height: 300px; 
+    border-radius: 8px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none; 
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .back-to-top:hover {
+    background-color: #45a049;
+  }
+  
+  .show-back-to-top {
+    display: block;
+  }
+
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none; 
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .back-to-top:hover {
+    background-color: #45a049;
+  }
+  
+  .show-back-to-top {
+    display: block;
+  }
