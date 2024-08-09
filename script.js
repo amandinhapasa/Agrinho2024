@@ -55,4 +55,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
+document.getElementById('toggleDarkMode').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
+function pausePlayBg() {
+    let video = document.getElementById("bgVideo");
+    let button = document.getElementById("buttonPlayPause");
+    let icon = document.getElementById("playPauseIcon");
+    if (video.paused) {
+        video.play();
+        button.setAttribute('title', 'Pausar vídeo'); // Altera o titulo do botão
+        icon.setAttribute('name', 'pause-circle'); // Altera o ícone para pausa
+    } else {
+        video.pause();
+        button.setAttribute('title', 'Despausar vídeo'); // Altera o titulo do botão
+        icon.setAttribute('name', 'play-circle'); // Altera o ícone para reprodução
+    }
+}

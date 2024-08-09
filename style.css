@@ -24,7 +24,7 @@ h1{text-align: center; font-size: 35px; height: 60px; padding: 10px;}
 
 p{ text-align: justify; font-size: 50px; }
 
-body{background:rgb(201, 245, 181)}
+body{background:rgb(228, 252, 216)}
 
 li{
     display: inline;
@@ -122,7 +122,7 @@ a.linkum:link{
     justify-content:space-evenly;
     align-items: center;
     padding: 24px 0;
-    font-size: 20px;
+    font-size: 250px;
     border-radius: 8px;
 }
 .Comerciantes{
@@ -191,14 +191,14 @@ margin: 0 0 0 20px; }
 
 }
 .Mel-imagem{
-    width: 20%;
-    height: 220px;
+    width: 50%;
+    height: 50%;
     border-radius: 8px;
 
 }
 .Queijo-imagem{
-    width: 20%;
-    height: 220px;
+    width: 50%;
+    height: 50%;
     border-radius: 8px;
 
 }
@@ -547,3 +547,48 @@ main {
   .show-back-to-top {
     display: block;
   }
+  body.dark-mode {
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+.img#toggleDarkMode {
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.img#toggleDarkMode:hover {
+    transform: scale(1.1);
+}
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carrossel-card {
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+}
+
+.carrossel-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.Vanderlei-imagem{
+    width: 15%;
+    height: 220px;
+    border-radius: 8px;
+}

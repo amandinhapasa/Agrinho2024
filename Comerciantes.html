@@ -24,6 +24,9 @@
                      <li><a href="Analisedemercado.html">Analise de mercado</a></li>
                      <li><a href="CiclodeCultivo.html">Ciclo de Cultivo</a></li>
                      <li><a href="Comerciantes.html">Colaboradores</a></li>
+                     <img id="toggleDarkMode" src="modo-escuro.png" alt="Modo Dark" width="50" height="50">
+  
+             
                  <script src="scripts.js"></script>
                 </p>
                 <meta charset="UTF-8">
@@ -40,36 +43,48 @@
               </nav>
             
     </header>
+    <div vw class="enabled" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+      </div>
+  </div>
+  
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <header class="Comerciantes">
 
       <p> Esta seção do site serve como uma ponte para facilitar a venda de produtos dos pequenos comerciantes locais da região oeste do Paraná.</p>
     </header>
-    <section id="gallery">
-      <h2 class="animate_animated animate_fadeIn">
-      <div class="gallery-container">
-          <img src="Mel.png" class="Mel-imagem"alt="Foto de garrafas de mel.">  
-        <p>  
-          Edinaldo Ferreira de sales.</p>
-       Para comprar seu mel entre em contato com esse número.
-       
-          (44)9712-1591
-        </p>            
-      </a>
-      </div></h2></section>
-      <section id="gallery">
-        <h2 class="animate_animated animate_fadeIn">
-        <div class="gallery-container">
-      <img src="Queijo.png" class="Queijo-imagem"alt="Foto de queijos.">  
-      <p>
-        Beatriz Felipin Rigobello.
-
-        Para comprar seu queijo entre em contato com esse número.
-
-        (44)99870-6891 ou então pelo email: aprigibello@uol.com.br.
-      </p>               
-    </a></div></h2></section>
+    <div class="carrossel-container">
       
-       
+      <div class="carrossel" id="carrossel">
+          <div class="carrossel-card">
+              <h2>Mel</h2>
+              <img src="Mel.png" class="Mel-imagem" alt="Foto de garrafas de mel.">
+              <p>Edinaldo Ferreira de Sales</p>
+              <p>Para comprar seu mel, entre em contato com este número: (44) 9712-1591</p>
+          </div>
+          <div class="carrossel-card">
+              <h2>Queijo e Ricota</h2>
+              <img src="Queijo.png" class="Queijo-imagem" alt="Foto de queijos.">
+              <p>Beatriz Felipin Rigobello</p>
+              <p>Para comprar seu queijo, entre em contato com este número: (44) 99870-6891 ou pelo email: aprigibello@uol.com.br</p>
+          </div>
+          <div class="carrossel-card">
+            <h2>Café na lata, mulheres do café - Jesuítas</h2>
+            <img src="Café.png" class="Café-imagem" alt="Foto de Café na lata.">
+            <p>Empresa Café na lata, mulheres do café - Jesuítas</p>
+            <p>Para comprar seu café, entre em contato com este número: (44) 9864-6831</p>
+          </div>
+      </div>
+      
+    </div> 
+
+
+           
     <footer class="rodape">
         <div class="rodape-conteudo">
             <div class="rodape-secao">

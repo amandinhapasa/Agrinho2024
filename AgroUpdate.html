@@ -21,6 +21,9 @@
              <li><a href="Analisedemercado.html">Analise de mercado</a></li>
              <li><a href="CiclodeCultivo.html">Ciclo de Cultivo</a></li>
              <li><a href="Comerciantes.html">Colaboradores</a></li>
+             <img id="toggleDarkMode" src="modo-escuro.png" alt="Modo Dark" width="50" height="50">
+  
+             
          <script src="scripts.js"></script>
         </p>
         <meta charset="UTF-8">
@@ -39,28 +42,40 @@
       </nav>
               
       </header>
+      <div vw class="enabled" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
     <header class="AgroUpdate">
       <em>  Interessado nas novidades do setor agrícola? 
     </em>
     </p>
     <p>Nosso objetivo é mantê-lo informado sobre as mais diversas notícias desse setor.</p>
   </header>
+
   <section id="gallery">
     <h2 class="animate_animated animate_fadeIn">
-    <div class="gallery-container">
-  <a href="Noticia1.html" data-lightbox="gallery" data-title="Descriçaõ imagem 1">
-    <img src="Noticia1.png" class="Noticia1-imagem2"alt="Foto do reitor da PUCPR, Rogério Renato Mateucci, e o vice-presidente do Sistema FAEP/SENAR-PR, Ágide Eduardo Meneguette."><class="fonte"> O reitor da PUCPR, Rogério Renato Mateucci, e o vice-presidente do Sistema FAEP/SENAR-PR, Ágide Eduardo Meneguette. FOTO: FAEP/SENAR/PR</class>
-    <p><strong> FAEP/SENAR-PR e PUCPR firmam parceria para capacitação profissional
-    </strong></p>           
-</a>
+        <div class="gallery-container">
+            <a href="Noticia1.html" data-lightbox="gallery" data-title="Descrição imagem 1">
+                <img src="Noticia1.png" class="Noticia1-imagem2" alt="Foto do reitor da PUCPR, Rogério Renato Mateucci, e o vice-presidente do Sistema FAEP/SENAR-PR, Ágide Eduardo Meneguette.">
+                <p><strong>O reitor da PUCPR, Rogério Renato Mateucci, e o vice-presidente do Sistema FAEP/SENAR-PR, Ágide Eduardo Meneguette. FOTO: FAEP/SENAR/PR</strong></p>
+                <p><strong>FAEP/SENAR-PR e PUCPR firmam parceria para capacitação profissional</strong></p>
+            </a>
 
-<a href="Noticia2.html" data-lightbox="gallery" data-title="Descriçaõ imagem 1">
-  <img src="Sojaa.png" class="Noticia2-imagem2"alt=" Foto soja">  
-<p>  <strong> Enchentes no Rio Grande do Sul Afetam Projeções de Embarque de Soja no Brasil
-  </strong>      </p>
-</a>
-</div></h2></section>
-
+            <a href="Noticia2.html" data-lightbox="gallery" data-title="Descrição imagem 2">
+                <img src="Sojaa.png" class="Noticia2-imagem2" alt="Foto soja">
+                <p><strong>Enchentes no Rio Grande do Sul Afetam Projeções de Embarque de Soja no Brasil</strong></p>
+            </a>
+        </div>
+    </h2>
+</section>
 
   <footer class="rodape">
     <div class="rodape-conteudo">

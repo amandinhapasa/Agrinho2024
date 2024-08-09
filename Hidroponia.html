@@ -23,6 +23,9 @@
              <li><a href="Analisedemercado.html">Analise de mercado</a></li>
              <li><a href="CiclodeCultivo.html">Ciclo de Cultivo</a></li>
              <li><a href="Comerciantes.html">Colaboradores</a></li>
+             <img id="toggleDarkMode" src="modo-escuro.png" alt="Modo Dark" width="50" height="50">
+  
+             
          <script src="scripts.js"></script>
         </p>
         <meta charset="UTF-8">
@@ -41,6 +44,17 @@
       </nav>
             
     </header>
+    <div vw class="enabled" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
     <header class="Hidroponia">
     <p> <strong>
        Quer uma horta, mas seu espaço em casa é pequeno?. </strong>
@@ -94,6 +108,7 @@ Para resolver esse problema, a hidroponia é uma excelente solução.
 
 
 </header>
+
 <footer class="rodape">
     <div class="rodape-conteudo">
         <div class="rodape-secao">
@@ -111,11 +126,11 @@ Para resolver esse problema, a hidroponia é uma excelente solução.
 
         <div class="rodape-secao social">
             <h4>Redes Sociais</h4>
-            <a href="https://www.youtube.com/@SemeandoOportunidades" class="social-icon">Youtube</a>
-            <a href="Formulario.html" class="social-icon">Informações</a>
-            <a href="Referência.html" class="social-icon">Referência</a>
-            <a href="https://tudoradio.com/player/radio/1568-vale-verde-fm" class="social-icon">Rádio Vale Verde 96,5</a>
-             </div>
+           <a href="https://www.youtube.com/@SemeandoOportunidades" class="social-icon">Youtube</a>
+        <a href="Formulario.html" class="social-icon">Informações</a>
+        <a href="Referência.html" class="social-icon">Referência</a>
+        <a href="https://tudoradio.com/player/radio/1568-vale-verde-fm" class="social-icon">Rádio Vale Verde 96,5</a>
+        </div>
         <img class="rodape-imagem" src="logo-colegio-humberto.png" alt="logo colégio Humberto">
   
     </div>
@@ -124,19 +139,19 @@ Para resolver esse problema, a hidroponia é uma excelente solução.
     </div>
 </footer>
 
-
 <a href="#top" class="back-to-top">&#8679;</a>
 
 <script>
-  
-  window.addEventListener('scroll', function() {
-    var backToTopButton = document.querySelector('.back-to-top');
-    if (window.pageYOffset > 300) {
-      backToTopButton.classList.add('show-back-to-top');
-    } else {
-      backToTopButton.classList.remove('show-back-to-top');
-    }
-  });
+
+window.addEventListener('scroll', function() {
+var backToTopButton = document.querySelector('.back-to-top');
+if (window.pageYOffset > 300) {
+  backToTopButton.classList.add('show-back-to-top');
+} else {
+  backToTopButton.classList.remove('show-back-to-top');
+}
+});
 </script>
 </body>
 </html>
+

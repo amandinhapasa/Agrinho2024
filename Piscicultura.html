@@ -22,6 +22,9 @@
                  <li><a href="Analisedemercado.html">Analise de mercado</a></li>
                  <li><a href="CiclodeCultivo.html">Ciclo de Cultivo</a></li>
                  <li><a href="Comerciantes.html">Colaboradores</a></li>
+                 <img id="toggleDarkMode" src="modo-escuro.png" alt="Modo Dark" width="50" height="50">
+  
+             
                  <script src="scripts.js"></script>
             </p>
             <meta charset="UTF-8">
@@ -40,6 +43,17 @@
           </nav>
                 
         </header>
+        <div vw class="enabled" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
         <header class="Piscicultura">
             <p>
                 <strong>
